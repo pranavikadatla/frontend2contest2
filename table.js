@@ -7,7 +7,7 @@ fetch('./table.json')
     data.forEach(element => { 
                 x+=`<tr>
                       <td>${element.id}</td>
-                      <td>${element.first_name}</td>
+                      <td><img src="${element.img_src}"/>${element.first_name+" "+element.last_name}</td>
                       <td>${element.gender}</td>
                       <td>${element.class}</td>
                       <td>${element.marks}</td>
