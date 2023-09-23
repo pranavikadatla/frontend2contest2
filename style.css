@@ -1,0 +1,18 @@
+ *{
+    margin:0;
+    padding:0;
+ }
+ table{
+    margin-top: 10px;
+}
+table, th, td {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  #books{
+     margin-top: 50px;
+  }
+  td div{
+     border: 1px solid black;
+  }
